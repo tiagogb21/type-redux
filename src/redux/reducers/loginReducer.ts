@@ -3,7 +3,6 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { LoginType } from "../../interface/@types.login";
 
 const initialState: LoginType = {
-  name: '',
   email: '',
   password: '',
   isSubmitting: false,
